@@ -118,11 +118,10 @@ VALUES (`UserIdGUIDValueFromAspNetUsers','2');
 2. Support for the following features:
   - List bank accounts
   - View bank account
-  - Deposit/withdraw from a bank account
-3. Properly restrict feature access by user role
-4. Submission of wire frames
-5. Submission of Postman test cases
-6. Proper use of Git for version control
+  - Deposit/withdraw from a bank account (Properly restrict feature access by user role)
+3. Submission of wire frames
+4. Submission of Postman test cases
+5. Proper use of Git for version control
 
 
 [Back to Top](#Top)
