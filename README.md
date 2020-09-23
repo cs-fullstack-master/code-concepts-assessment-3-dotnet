@@ -20,9 +20,8 @@ You will implement this solution as a .NET MVC application utilizing the followi
   - List all bank accounts - admin, employee
   - Create a new bank account - admin
   - View bank account from list - admin, employee
-  - Deposit into bank account - admin
-  - Withdraw from bank account - admin
-
+  - Deposit/Withdraw into/from bank account - admin
+  
 - Should have entity model for `BankAccountModel` with all properties being **required**:
   - `AccountNumber` - int
   - `AccountType` - string that specifies either `Checking` or `Savings`
