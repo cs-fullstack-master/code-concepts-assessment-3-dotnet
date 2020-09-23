@@ -23,10 +23,11 @@ You will implement this solution as a .NET MVC application utilizing the followi
   - Deposit/withdraw into bank account - admin
 
 - Should have entity model for `BankAccountModel` with all properties being **required**:
+  - `id` - int (system generated) 
   - `AccountNumber` - int
   - `AccountType` - string that specifies either `Checking` or `Savings`
   - `AccountName` - string
-  - `AccountBalance` - number (integer value with no decimal point is OK)
+  - `AccountBalance` - int (integer value with no decimal point is OK)
 
 ### Frontend
   
