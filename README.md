@@ -15,8 +15,8 @@ You will implement this solution as a .NET MVC application utilizing the followi
 
 
 
-### Backend Express Server
-- Should have at minimum 4 endpoints:
+### Backend Web Service
+- Should have at minimum 4 endpoints/actions restricted by User role:
   - List all bank accounts
   - Create a new bank account
   - Deposit into bank account ($100)
