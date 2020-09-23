@@ -1,6 +1,6 @@
 ###### Top
 # coding-concepts-assessment-3-.NET
-[Requirements Summary](#Requirements-Summary)
+[Requirements Summary](#Functional-Requirements-Summary)
 
 > DO NOT REFER TO NOTES OR PAST CODING ASSIGNMENTS. You MAY use web resources like Google/Stackoverflow
 
@@ -20,8 +20,9 @@ You will implement this solution as a .NET MVC application utilizing the followi
   - List all bank accounts - admin, employee
   - Create a new bank account - admin
   - View bank account from list - admin, employee
-  - Deposit/Withdraw into/from bank account - admin
-  
+  - Deposit into bank account - admin
+  - Withdraw from bank account - admin
+
 - Should have entity model for `BankAccountModel` with all properties being **required**:
   - `AccountNumber` - int
   - `AccountType` - string that specifies either `Checking` or `Savings`
@@ -90,6 +91,7 @@ services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfi
 .AddRoles<IdentityRole>() // <- Add This 
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+// Add support for user roles
 services.AddMvc(obj =>
 {
 	var policy = new AuthorizationPolicyBuilder()
@@ -111,8 +113,16 @@ INSERT INTO `AspNetUserRoles` (UserId, RoleId)
 VALUES (`UserIdGUIDValueFromAspNetUsers','2');
 
 ```
-## Requirements-Summary
-- in progress...
+## Functional-Requirements-Summary
+1. Require User Registration/Login and create Admin and Employee roles with at least one registered user for each role
+2. Support for the following features:
+  - List bank accounts
+  - View bank account
+  - Deposit/withdraw from a bank account
+3. Properly restrict feature access by user role
+4. Submission of wire frames
+5. Submission of Postman test cases
+6. Proper use of Git for version control
 
 
 [Back to Top](#Top)
