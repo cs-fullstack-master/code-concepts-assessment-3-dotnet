@@ -1,4 +1,6 @@
+###### Top
 # coding-concepts-assessment-3-.NET
+[Requirements Summary](#Requirements-Summary)
 
 > DO NOT REFER TO NOTES OR PAST CODING ASSIGNMENTS. You MAY use web resources like Google/Stackoverflow
 
@@ -29,19 +31,21 @@ You will implement this solution as a .NET MVC application utilizing the followi
 
 ### Frontend
   
-`Account List`
+`Available Bank Account List Page`
   - Should contain at least a basic header of `Available Bank Accounts` and **should be the home page** after a User signs in
   - Should display the list of bank accounts
     - `AccountNumber`, `AccountType`, `AccountName`, and `AccountBalance` 
     - `AccountNumber` should be hyperlinked to the bank account details page
+    - A Razor template partial should be used to render each account in the list
+    - You may use an HTML table or BootStrap cards with Grid to display account list
   
-`Account Details`
+`Bank Account Details Page`
   - Should display the `AccountNumber`, `AccountType`, `AccountName`, and `AccountBalance` (read only)
   - A form that allows the User to enter an amount to add or subtract from the account balance (i.e. positive number for deposit or negative number for withdrawal)
   - A button for submission of the data from the form
   - Submitting a **valid** form should update account and return to the list of accounts
 
-`Add Account Form`
+`Add Account Form Page`
 - Contains the form for creating a new bank account
   - `AccountNumber` An input field for entering the account number for the new account
   - `AccountType` An input field for specifying 'checking' or 'savings'
@@ -74,7 +78,8 @@ dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 dotnet add package Microsoft.AspNetCore.MVC.Razor.RuntimeCompilation
 ```
 
-### Startup.cs Code Snippets
+### Code Snippets
+`Startup.cs`
 - Razor View Compilation
 ```
 services.AddControllersWithViews().AddRazorRuntimeCompilation();
@@ -93,3 +98,22 @@ services.AddMvc(obj =>
 		.Build();
 });
 ```
+`User and User Roles`
+- Use the sqlite program to insert roles and associate roles to registered users using SQL
+```
+INSERT INTO `AspNetRoles` (Id, ConcurrencyStamp, Name, NormalizedName) VALUES (1,'','admin','ADMIN')
+
+INSERT INTO `AspNetRoles` (Id, ConcurrencyStamp, Name, NormalizedName) VALUES (2,'','employee','EMPLOYEE')
+
+INSERT INTO `AspNetUserRoles` (UserId, RoleId)
+VALUES (`UserIdGUIDValueFromAspNetUsers','1');
+
+INSERT INTO `AspNetUserRoles` (UserId, RoleId)
+VALUES (`UserIdGUIDValueFromAspNetUsers','2');
+
+```
+## Requirements-Summary
+- in progress...
+
+
+[Back to Top](#Top)
