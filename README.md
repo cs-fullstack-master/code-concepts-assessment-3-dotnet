@@ -4,7 +4,7 @@
 
 The assessment consists of 2 parts: a coding challenge and then a code walkthough with the staff where we will ask questions about your code.
 
-## Coding Challenge - Creating a Fullstack MERN Bank Account Manager
+## Coding Challenge - Creating a Fullstack Bank Account Manager
 You will create a bank account applcation that will let you create bank accounts and manage deposits and withdrawls.
 - After cloning this repo, create separate `client` and `server` directories
 
