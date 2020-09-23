@@ -100,7 +100,7 @@ services.AddMvc(obj =>
 });
 ```
 `User and User Roles`
-- Use the sqlite program to insert roles and associate roles to registered users using SQL
+- Use the sqlite Visual Code plugin to insert roles and to associate roles to registered users using SQL (register users first)
 ```
 INSERT INTO `AspNetRoles` (Id, ConcurrencyStamp, Name, NormalizedName) VALUES (1,'','admin','ADMIN')
 
