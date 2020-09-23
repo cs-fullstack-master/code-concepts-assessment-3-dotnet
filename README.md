@@ -1,5 +1,5 @@
 ###### Top
-# Coding Assessment 3 -.NET
+# Coding Assessment 3 - .NET
 [Requirements Summary](#Functional-Requirements-Summary)
 
 > DO NOT REFER TO NOTES OR PAST CODING ASSIGNMENTS. You MAY use web resources like Google/Stackoverflow
