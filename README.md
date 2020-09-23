@@ -6,7 +6,14 @@ The assessment consists of 2 parts: a coding challenge and then a code walkthoug
 
 ## Coding Challenge - Creating a Fullstack Bank Account Manager
 You will create a bank account applcation that will let you create bank accounts and manage deposits and withdrawls.
-- After cloning this repo, create separate `client` and `server` directories
+
+You will implement this solution as a .NET MVC application utilizing the following:
+- .NET MVC for backend and Razor templates/partials for content generation
+- .NET Entity Framework for persistence
+- .NET Identity Framework for User authentication and authorization
+- PostMan tool for testing
+
+
 
 ### Backend Express Server
 - Should have at minimum 4 endpoints:
