@@ -115,10 +115,10 @@ VALUES (`UserIdGUIDValueFromAspNetUsers','2');
 ```
 ## Functional-Requirements-Summary
 1. Require User Registration/Login and create Admin and Employee roles with at least one registered user for each role
-2. Support for the following features:
+2. Support for the following features (Properly restrict feature access by user role):
   - List bank accounts
   - View bank account
-  - Deposit/withdraw from a bank account (Properly restrict feature access by user role)
+  - Deposit/withdraw from a bank account
 3. Submission of wire frames
 4. Submission of Postman test cases
 5. Proper use of Git for version control
