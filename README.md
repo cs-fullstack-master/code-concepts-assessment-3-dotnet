@@ -16,12 +16,11 @@ You will implement this solution as a .NET MVC application utilizing the followi
 - PostMan tool for testing
 
 ### Backend
-- Should have at **minimum** 5 endpoints/actions restricted by User role (admin, employee):
+- Should have at **minimum** 4 endpoints/actions restricted by User role (admin, employee):
   - List all bank accounts - admin, employee
   - Create a new bank account - admin
   - View bank account from list - admin, employee
-  - Deposit into bank account - admin
-  - Withdraw from bank account - admin
+  - Deposit/withdraw into bank account - admin
 
 - Should have entity model for `BankAccountModel` with all properties being **required**:
   - `AccountNumber` - int
