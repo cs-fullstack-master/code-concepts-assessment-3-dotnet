@@ -43,7 +43,7 @@ You will implement this solution as a .NET MVC application utilizing the followi
   - Should display the `AccountNumber`, `AccountType`, `AccountName`, and `AccountBalance` (read only)
   - Should include a form that allows the User to enter an amount to add or subtract from the account balance (i.e. positive number for deposit or negative number for withdrawal)
   - A button for submission of the data from the form
-  - Submitting a **valid** form should update account and return to the list of accounts
+  - Submitting the deposit/withdrawl form should update account balance and return to the list of accounts
 
 `Add Account Form Page`
 - Contains the form for creating a new bank account
