@@ -106,11 +106,9 @@ INSERT INTO `AspNetRoles` (Id, ConcurrencyStamp, Name, NormalizedName) VALUES (1
 
 INSERT INTO `AspNetRoles` (Id, ConcurrencyStamp, Name, NormalizedName) VALUES (2,'','employee','EMPLOYEE')
 
-INSERT INTO `AspNetUserRoles` (UserId, RoleId)
-VALUES (`UserIdGUIDValueFromAspNetUsers','1');
+INSERT INTO `AspNetUserRoles` (UserId, RoleId) VALUES (`UserIdGUIDValueFromAspNetUsers','1');
 
-INSERT INTO `AspNetUserRoles` (UserId, RoleId)
-VALUES (`UserIdGUIDValueFromAspNetUsers','2');
+INSERT INTO `AspNetUserRoles` (UserId, RoleId) VALUES (`UserIdGUIDValueFromAspNetUsers','2');
 
 ```
 ## Functional-Requirements-Summary
