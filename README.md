@@ -113,7 +113,7 @@ INSERT INTO `AspNetUserRoles` (UserId, RoleId) VALUES (`UserIdGUIDValueFromAspNe
 
 ```
 ## Functional-Requirements-Summary
-1. Require User Registration/Login and create Admin and Employee roles with at least one registered user for each role
+1. Require User Registration/Login and create `Admin` and `Employee` roles with at least one registered user for each role
 2. Support for the following features (Properly restrict feature access by user role):
   - List bank accounts
   - View bank account
