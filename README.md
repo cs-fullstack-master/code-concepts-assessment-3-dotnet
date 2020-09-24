@@ -22,7 +22,7 @@ You will implement this solution as a .NET MVC application utilizing the followi
   - View bank account from list - admin, employee
   - Deposit/withdraw into bank account - admin
 
-- Should have entity model for `BankAccountModel` with all properties being **required**:
+- Should have an entity model for `BankAccountModel` with all properties being **required**:
   - `id` - int (system generated) 
   - `AccountNumber` - int
   - `AccountType` - string that specifies either `Checking` or `Savings`
