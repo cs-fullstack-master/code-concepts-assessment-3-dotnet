@@ -14,6 +14,9 @@ You will implement this solution as a .NET MVC application utilizing the followi
 - .NET Entity Framework for persistence
 - .NET Identity Framework for User authentication and authorization
 - PostMan tool for testing
+  
+`Wire Frames`
+- Take some time at start to do some pre-thinking and design. At *minimum* you should have a basic wire frame drawn up (*ADD A PICTURE OF DESIGN TO REPO*)
 
 ### Backend
 - Should have at **minimum** 4 endpoints/actions restricted by User role (admin, employee):
@@ -59,9 +62,7 @@ You will implement this solution as a .NET MVC application utilizing the followi
 
 `Test Cases`
 - Create a test case for each endpoint in Postman and export/include completed test cases in this repo
-  
-`Wire Frames`
-- Take some time at start to do some pre-thinking and design. At *minimum* you should have a basic wire frame drawn up (*ADD A PICTURE OF DESIGN TO REPO*)
+
 ----------------------------------------------------------------------------------------------------
 If you need clarification of requirements *ASK EARLY*. Do not wait until right before it is due.
 
